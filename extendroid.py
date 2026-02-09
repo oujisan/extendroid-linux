@@ -110,7 +110,7 @@ def main():
       os.system(f"adb shell am start -a android.intent.action.VIEW -d '{final_url}' {package_name}")
       time.sleep(0.5)
       
-      input(f"[+] Script Finished, Return to Deskreen App...")
+      input(f"[+] Script Finished, Press Endter and Return to Deskreen App...")
       os.system('clear')
    except KeyboardInterrupt:
       print(f"\n[-] Script Stopped")
